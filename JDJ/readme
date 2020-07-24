@@ -1,0 +1,5 @@
+- make backups of files that are about to be replaced
+- replace files
+- the data/graph_data/sys/system folder uses a new file format and i didn't want to deal with reversing that. luckily, the old format is also supported and you can simply replace the system folder with the new asset formats with the modified system folder from I00 with the old format
+- basically, that means: remove the data/graph_data/sys/system folder and drop the one from this package in there instead
+- run game on free play with network disabled
